@@ -7,6 +7,10 @@ import android.widget.TextView;
 
 
 //http://android-er.blogspot.tw/2015/05/example-of-jobscheduler-and-jobservice.html
+// https://ddnews.me/tech/xdbc2ez7.html
+
+
+
 public class MainActivity extends AppCompatActivity
 {
     private final static String TAG = MainActivity.class.getSimpleName();
