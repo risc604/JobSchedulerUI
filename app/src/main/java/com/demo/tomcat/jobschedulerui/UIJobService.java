@@ -52,7 +52,7 @@ public class UIJobService extends JobService
         try {
             callback.send(m);
         } catch (RemoteException e) {
-            Log.e(TAG, "Error !! passing service object back to activity.")
+            Log.e(TAG, "Error !! passing service object back to activity.");
             e.printStackTrace();
         }
         return START_NOT_STICKY;
